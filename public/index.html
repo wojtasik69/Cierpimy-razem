@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Retro D&D Chat & Log</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <div id="container">
+    <h1>⚔️ Retro D&D Chat • Logs</h1>
+    <div id="chat">
+      <div id="chat-messages"></div>
+      <input id="chat-user" placeholder="Name">
+      <input id="chat-input" placeholder="Chat message">
+      <button id="chat-send">Send</button>
+    </div>
+    <div id="log">
+      <h2>📝 Adventure Log</h2>
+      <div id="log-entries"></div>
+      <input id="log-user" placeholder="Name">
+      <textarea id="log-text" placeholder="Your log entry"></textarea>
+      <button id="log-add">Add Log</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
